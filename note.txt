@@ -1,0 +1,10 @@
+This sample use lots of state handling and it is so chalenging
+
+The idea of making function to do specific one thing, is very important ..
+
+The part that really challenged me ont his project is storing data on local storage as and array. The problem was that it doestn't have
+"id's" (unique identifiers) which became a problem when I have to delete it...
+
+The project reminded me of why React
+Easy state management using State and IDs using "Keys"
+

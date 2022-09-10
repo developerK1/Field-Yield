@@ -1,0 +1,123 @@
+.flexy,
+.flexy-col {
+	display :flex;
+	justify-content :center;
+	align-items :center;
+}
+.flexy-col {
+	flex-direction :column;
+}
+.flexy button{
+	margin : 10px;
+}
+.fields {
+	display :flex;
+	flex-direction :column;
+	justify-content :center;
+	align-items :center;
+	width : 350px;
+	height : 8vh;
+}
+#results {
+	position : fixed;
+	top : 0px;
+	background-color : black;
+	width : 100%;
+	min-height : 100vh;
+	display : none;
+}
+article {
+	width : 100%;
+	min-height : 100vh;
+	display : flex;
+}
+form, #infor {
+	margin : auto;
+	width : 350px;
+	padding : 3% 1%;
+	border : 3px solid red;
+}
+form aside{
+	width: 100%;
+}
+
+form button { 
+	width : 148px;
+	outline : none;
+	height : 38px;
+	cursor : pointer;
+}
+#infor {
+	background-color : white;
+}
+#results p {
+    font-size: 18px;
+    font-family: serif;
+    letter-spacing: 1px;
+    line-height: 1.6rem;
+}
+
+#results button {
+	width : 88px;
+	padding : 1%;
+	font-weight : 600;
+	transition : all 0.5s ease-in-out;
+}
+#history, #preloader-modal {
+	position : absolute;
+	top : 0px;
+	background-color : black;
+	display : none;
+	width : 100%;
+	min-height : 100vh;
+	flex-wrap :wrap;
+	justify-content : space-evenly;
+}
+#preloader-modal, .no-reults  {
+	color : white;
+	text-decoration : underline;
+	font-style : italic;
+	font-weight : 700;
+	letter-spacing : 1.3px;
+}
+#no-results {
+	width : 480px;
+	height : 200px;
+	margin : auto;
+	justify-content : space-around;
+}
+.no-reults {
+	font-size : 36px;
+	margin : auto;
+}
+.delete {
+	display : none;
+}
+#no-results button { 
+	width :80px;
+	height : 32px;
+	cursor : pointer;
+}
+#history aside {
+	margin : 8px;
+	width : 300px;
+}
+.close {
+	background-color : #c41a1a;
+	color :white;
+}
+.fade-in {
+	animation : modalOpen 2s ease-in-out forwards;
+}
+
+@keyFrames animation {
+	0% {
+		opacity : 0;
+	}
+	50% {
+		opacity : 1.4;
+	}
+	100%{
+		opacity : 1;
+	}
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="EI=egde">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Block Bricks & Max, Block Bricks & Max, Cements, Pillars">
+	<title>File Yeild</title>
+	<link rel="stylesheet"  href="style.css" href=”image.css”>	
+</head>
+<body>
+<main>
+<nav>
+	<ul>
+		<li>HELP</li>
+		<li ><button onClick="openHistory()">HISTORY</button></li>
+	</ul>
+</nav>
+<article id="form" >
+	<form>
+		<div class="fields">
+			<label>Project Name</label>
+			<input type="text" placeholder="" id="project-name"/>
+		</div>
+		<aside class="flexy-col">
+			<h3>SEEDING</h3>
+			<div class="fields ">
+				<label>Seed type / name</label>
+				<input type="text" placeholder="" id="seed-name"/>
+			</div>
+			<div class="fields">
+				<label>Seed Size</label>
+				<input type="text" placeholder="" id="seed-size"/>
+			</div>
+		</aside>
+		<aside class="flexy-col">
+			<h3>LAND</h3>
+			<div class="fields">
+				<label>Length (side)</label>
+				<input type="text" placeholder="" id="length"/>
+			</div>
+			<div class="fields">
+				<label>Breadth (side)</label>
+				<input type="text" placeholder="" id="breadth"/>
+			</div>
+			<div class="fields">
+				<label>Seeding Spacing</label>
+				<input type="text" placeholder="" id="spacing"/>
+			</div>
+		</aside>
+		<div class="fields">
+			<button>Get Results</button>
+		</div>
+	</form>
+</article>
+<aside id="results"></aside>
+<aside id="history"></aside>
+<aside id="preloader-modal">
+	<div class="flexy-col">
+		<h3>PLEASE WAITE</h3>
+		<h4>Deleting in process...</h4>
+	</div>
+</aside>
+</main>
+<!-- CUSTOM   -->
+<script src="app.js"></script>
+</body>
+</html>
